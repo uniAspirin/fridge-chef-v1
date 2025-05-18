@@ -12,7 +12,7 @@ export default function TodoFilter({ filter, setFilter }: TodoFilterProps) {
     "bg-neutral-200 px-2 rounded transition duration-175 flex-1 flex justify-center";
 
   return (
-    <div className="flex flex-row w-full justify-between absolute bottom-0 left-0">
+    <div className="flex flex-row w-full justify-between">
       <button
         onClick={() => setFilter("all")}
         className={filter === "all" ? styleHovered : style}
